@@ -26,9 +26,7 @@ public class ParcialLPAII {
         System.out.println("Ingrese el porcentaje de retencion (%)");
         porcentaje = leer.nextInt();
         
-        int sueldo_bruto = horas * costo_horas;
-        double retencion = sueldo_bruto * (porcentaje /100.0);
-        double sueldo_neto =  sueldo_bruto - retencion;
+        
     }
     
 }
