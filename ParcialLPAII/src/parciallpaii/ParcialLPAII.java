@@ -23,6 +23,8 @@ public class ParcialLPAII {
         int sueldo_bruto = horas * costo_horas;
         double retencion = sueldo_bruto * (porcentaje /100.0);
         double sueldo_neto =  sueldo_bruto - retencion;//Calculos del programa
+        
+        System.out.println("El sueldo bruto es de :$"+sueldo_bruto);
     }
     
 }
