@@ -1,16 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package parciallpaii;
 
 import java.util.Scanner;
 
-/**
- *
- * @author acerpc
- */
+
 public class ParcialLPAII {
 
     
@@ -26,7 +19,9 @@ public class ParcialLPAII {
         System.out.println("Ingrese el porcentaje de retencion (%)");
         porcentaje = leer.nextInt();
         
-        
+        int sueldo_bruto = horas * costo_horas;
+        double retencion = sueldo_bruto * (porcentaje /100.0);
+        double sueldo_neto =  sueldo_bruto - retencion;
     }
     
 }
