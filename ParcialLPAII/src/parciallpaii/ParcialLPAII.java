@@ -13,9 +13,7 @@ import java.util.Scanner;
  */
 public class ParcialLPAII {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         int horas;
         int costo_horas;
@@ -27,6 +25,10 @@ public class ParcialLPAII {
         costo_horas = leer.nextInt();
         System.out.println("Ingrese el porcentaje de retencion (%)");
         porcentaje = leer.nextInt();
+        
+        int sueldo_bruto = horas * costo_horas;
+        double retencion = sueldo_bruto * (porcentaje /100.0);
+        double sueldo_neto =  sueldo_bruto - retencion;
     }
     
 }
