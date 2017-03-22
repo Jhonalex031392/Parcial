@@ -27,7 +27,7 @@ public class ParcialLPAII {
         
         System.out.println("El sueldo bruto es de :$"+sueldo_bruto);
         System.out.println("La retencion es de :$"+retencion);
-        System.out.println("El sueldo neto a pagar es de :$"+sueldo_neto);
+        System.out.println("El sueldo neto a pagar es de :$"+sueldo_neto);//Impresion por pantalla
     }
     
 }
