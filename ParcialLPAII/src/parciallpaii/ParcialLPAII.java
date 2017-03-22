@@ -12,6 +12,7 @@ public class ParcialLPAII {
         int costo_horas;
         int porcentaje;
         //Variables
+        
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese las horas trabajadas");
         horas = leer.nextInt();
@@ -25,6 +26,7 @@ public class ParcialLPAII {
         double sueldo_neto =  sueldo_bruto - retencion;//Calculos del programa
         
         System.out.println("El sueldo bruto es de :$"+sueldo_bruto);
+        System.out.println("La retencion es de :$"+retencion);
     }
     
 }
